@@ -1,0 +1,248 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Main",
+        "Components": [
+          {
+            "Type": "SwipeContainer",
+            "Name": "swipeContainer1",
+            "Width": 480,
+            "Height": 272,
+            "SwipeCutoff": 50,
+            "IndicatorImageNormal": "__generated\\alternate_theme_images_widgets_swipecontainer_medium_off_normal.png",
+            "IndicatorImageHighlight": "__generated\\alternate_theme_images_widgets_swipecontainer_medium_on_active.png",
+            "EndSwipeElasticWidth": 50,
+            "SelectedPage": "swipeContainer1Page2",
+            "Preset": "alternate_theme\\presets\\swipecontainer\\medium_active.json",
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "swipeContainer1Page1",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "BackGround",
+                    "Width": 480,
+                    "Height": 272,
+                    "RelativeFilename": "background.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "ButtonDown",
+                    "X": 175,
+                    "Y": 216,
+                    "Width": 130,
+                    "Height": 56,
+                    "Pressed": "button_down_pressed.png",
+                    "Released": "button_down_released.png"
+                  },
+                  {
+                    "Type": "Button",
+                    "Name": "ButtonUp",
+                    "X": 175,
+                    "Width": 130,
+                    "Height": 56,
+                    "Pressed": "button_up_pressed.png",
+                    "Released": "button_up_released.png"
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "TextBackGround",
+                    "X": 164,
+                    "Y": 59,
+                    "Width": 152,
+                    "Height": 154,
+                    "RelativeFilename": "counter_box.png"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "TextCounter",
+                    "X": 164,
+                    "Y": 91,
+                    "Width": 152,
+                    "Height": 90,
+                    "TextId": "__SingleUse_KDAG",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_C1CY",
+                      "UseBuffer": true,
+                      "BufferSize": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "swipeContainer1Page2",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "BackGround2",
+                    "Width": 480,
+                    "Height": 272,
+                    "RelativeFilename": "background.png"
+                  },
+                  {
+                    "Type": "ScrollWheel",
+                    "Name": "scrollWheel1",
+                    "Y": 41,
+                    "Width": 480,
+                    "Height": 191,
+                    "SelectedItemOffset": 60,
+                    "IsCircular": true,
+                    "ItemTemplateName": "MenuElement",
+                    "NumberofItems": 6,
+                    "Easing": "Back",
+                    "EasingOption": "Out",
+                    "SwipeAcceleration": 1.0,
+                    "DragAcceleration": 1.0
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "overlay",
+                    "Width": 480,
+                    "Height": 272,
+                    "RelativeFilename": "overlay.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Up_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonUp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "UpButtonHandler"
+            }
+          },
+          {
+            "InteractionName": "Down_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonDown"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "DownButtonHandler"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "action1"
+          },
+          {
+            "Name": "action2"
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "MenuElement",
+        "Width": 480,
+        "Height": 70,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "text",
+            "X": 166,
+            "Y": 17,
+            "Width": 288,
+            "Height": 36,
+            "TextId": "__SingleUse_EWZF",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_841N",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "icon",
+            "X": 119,
+            "Y": 17,
+            "Width": 36,
+            "Height": 36,
+            "RelativeFilename": "icon00.png"
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD24bpp": {
+        "Id": "LCD24bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H7A3/7B3",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../TouchGFX_Training.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.23.2"
+}

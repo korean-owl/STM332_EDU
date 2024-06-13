@@ -1,0 +1,4 @@
+../TouchGFX/gui/src/model/Model.cpp:14:1:Model::Model()	24	static
+../TouchGFX/gui/src/model/Model.cpp:20:6:void Model::tick()	24	static
+../TouchGFX/gui/src/model/Model.cpp:33:6:void Model::userSetLedLight(bool)	16	static
+../TouchGFX/gui/src/model/Model.cpp:38:6:void Model::updateLedLight(bool)	16	static

@@ -1,0 +1,16 @@
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:37:18:virtual void touchgfx::Presenter::activate()	1
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:47:18:virtual void touchgfx::Presenter::deactivate()	1
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:touchgfx::Presenter::~Presenter()	1
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:virtual touchgfx::Presenter::~Presenter()	1
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:58:5:touchgfx::Presenter::Presenter()	1
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:9:5:ModelListener::ModelListener()	1
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:11:13:ModelListener::~ModelListener()	1
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:11:13:virtual ModelListener::~ModelListener()	1
+../TouchGFX/gui/include/gui/model/ModelListener.hpp:13:18:virtual void ModelListener::ledChangedState(bool)	1
+../TouchGFX/gui/include/gui/mainscreen_screen/mainScreenPresenter.hpp:28:13:mainScreenPresenter::~mainScreenPresenter()	1
+../TouchGFX/gui/include/gui/mainscreen_screen/mainScreenPresenter.hpp:28:13:virtual mainScreenPresenter::~mainScreenPresenter()	1
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:4:1:mainScreenPresenter::mainScreenPresenter(mainScreenView&)	1
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:10:6:virtual void mainScreenPresenter::activate()	1
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:15:6:virtual void mainScreenPresenter::deactivate()	1
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:20:6:void mainScreenPresenter::setLedLight(bool)	1
+../TouchGFX/gui/src/mainscreen_screen/mainScreenPresenter.cpp:26:6:virtual void mainScreenPresenter::ledChangedState(bool)	1

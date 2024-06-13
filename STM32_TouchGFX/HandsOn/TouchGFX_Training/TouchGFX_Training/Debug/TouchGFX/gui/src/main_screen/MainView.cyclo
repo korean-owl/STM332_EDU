@@ -1,0 +1,16 @@
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:132:5:touchgfx::Bitmap::Bitmap(touchgfx::BitmapId)	1
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	1
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+../TouchGFX/gui/include/gui/containers/MenuElement.hpp:15:10:void MenuElement::setNumber(int)	7
+../TouchGFX/generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp:34:18:virtual void MainViewBase::action1()	1
+../TouchGFX/generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp:39:18:virtual void MainViewBase::action2()	1
+../TouchGFX/gui/include/gui/main_screen/MainView.hpp:11:13:MainView::~MainView()	1
+../TouchGFX/gui/include/gui/main_screen/MainView.hpp:11:13:virtual MainView::~MainView()	1
+../TouchGFX/gui/include/gui/main_screen/MainView.hpp:18:18:virtual void MainView::scrollWheel1UpdateItem(MenuElement&, int16_t)	1
+../TouchGFX/gui/src/main_screen/MainView.cpp:4:1:MainView::MainView()	1
+../TouchGFX/gui/src/main_screen/MainView.cpp:9:6:virtual void MainView::setupScreen()	1
+../TouchGFX/gui/src/main_screen/MainView.cpp:14:6:virtual void MainView::tearDownScreen()	1
+../TouchGFX/gui/src/main_screen/MainView.cpp:19:6:virtual void MainView::UpButtonHandler()	1
+../TouchGFX/gui/src/main_screen/MainView.cpp:29:6:virtual void MainView::DownButtonHandler()	1
